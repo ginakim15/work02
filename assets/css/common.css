@@ -1,0 +1,55 @@
+
+.inner{
+    width: 1152px;
+    margin: 0 auto;
+}
+
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+.header .gnb .nav-logo a,
+.footer .bottom-wrap .call-area,
+.header .group-wrap .serch-area .search-engine .btn-submit::before,
+.mid-wrap .link-more,
+.sc-news .link-all::after,
+.sc-banner .swiper .btn-nav{
+    background-image: url(../img/sp.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.footer .top-wrap .sns-area .sns{
+    background-image: url(../img/sp4-footer.png);
+    background-size: 175px;
+    background-repeat: no-repeat;
+}
+
+.top-wrap .sc-main .tab .tab-news .img{
+    background-image: url(../img/sp3.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.sc-service .service-list .service-item .service .img{
+    background-image: url(../img/service.png);
+    background-size: 1200px;
+    background-repeat: no-repeat;
+}
+
+.sc-service .service-wrap .direct-area .link{
+    background-image: url(../img/sp2.png);
+    background-size: 160px;
+    background-repeat: no-repeat;
+}
+
+.headline{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.35em;
+}
